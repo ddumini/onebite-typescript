@@ -17,8 +17,13 @@ let str4: string = `hello ${num1}`;
 let bool1: boolean = true;
 let bool2: boolean = false;
 
-//null
+// null
 let null1: null = null;
 
 // undefined
 let unde1: undefined = undefined;
+
+// 리터럴
+let numA: 10 = 10;
+let strA: "hello" = "hello";
+let boolA: true = true;
