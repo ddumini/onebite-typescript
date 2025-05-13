@@ -31,4 +31,4 @@ function getSum(...rest: [number, number, number]) {
 }
 
 getSum(1, 2, 3)// 6
-getSum(1, 2, 3, 4, 5); // 15
+// getSum(1, 2, 3, 4, 5); // 15
