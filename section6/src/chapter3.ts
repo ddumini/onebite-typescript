@@ -6,6 +6,7 @@ interface CharacterInterface {
   move(): void;
 }
 
+// interface는 무조건 public 필드만 가질 수 있음
 class Character implements CharacterInterface {
   constructor(public name: string, public moveSpeed: number) {}
 
